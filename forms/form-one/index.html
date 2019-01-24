@@ -10,12 +10,14 @@
     <div id="form-div">
       <form action=" ">
         <h1>Lambda</h1>
-        <input type="email" name="email" placeholder="   Email" class="input"/>
-        <input type="password" name="password" placeholder="   Password" class="input"/>
+        <input type="email" name="email" placeholder="   Email" class="input" required/>
+        <input type="password" name="password" placeholder="   Password" class="input" required/>
         <footer>
-          <a href=" ">Forgot your password?</a>
-          <a href=" ">Sign Up</a>
-          <input type="submit" name="login" value="Log in"/>
+          <div id="links">
+            <a href=" ">Forgot your password?</a>
+            <a href=" ">Sign Up</a>
+          </div>
+          <input type="submit" name="login" value="Log in" id="login"/>
         </footer>
       </form>
     </div>
