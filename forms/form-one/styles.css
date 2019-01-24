@@ -1,0 +1,11 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: aqua;
+}
+#form-div {
+    background-color: #E9F4F7;
+    width: 300px;
+}
